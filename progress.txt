@@ -1,0 +1,56 @@
+"Next Formula 1 Grand Prix will be held at " + location.ToString() + ". Here is the information you need for this Grand Prix:
+
+# Grand Prix Schedule:
+" + day_one.ToString() + " " + day_one_month.ToString() + "
+" + session_one.ToString() + " - " + session_one_hour.ToString() + "
+" + session_two.ToString() + " - " + session_two_hour.ToString() + "
+
+" + day_two.ToString() + " " + day_two_month.ToString() + "
+" + session_three.ToString() + " - " + session_three_hour.ToString() + "
+" + session_four.ToString() + " - " + session_four_hour.ToString() + "
+
+" + day_three.ToString() + " " + day_three_month.ToString() + "
+" + session_five.ToString() + " - " + session_five_hour.ToString() + "
+
+
+# Last Race Result:
+1. " + last_race_first.ToString() + "
+2. " + last_race_second.ToString() + "
+3. " + last_race_third.ToString() + "
+4. " + last_race_fourth.ToString() + "
+5. " + last_race_fifth.ToString() + "
+6. " + last_race_sixth.ToString() + "
+7. " + last_race_seventh.ToString() + "
+8. " + last_race_eighth.ToString() + "
+9. " + last_race_ninth.ToString() + "
+10. " + last_race_tenth.ToString() + "
+
+
+# Drivers Standings (first 10):
+1. " + first_driver.ToString() + " (" + first_driver_car.ToString() + ") - " + first_driver_points.ToString() + "
+2. " + second_driver.ToString() + " (" + second_driver_car.ToString() + ") - " + second_driver_points.ToString() + "
+3. " + third_driver.ToString() + " (" + third_driver_car.ToString() + ") - " + third_driver_points.ToString() + "
+4. " + fourth_driver.ToString() + " (" + fourth_driver_car.ToString() + ") - " + fourth_driver_points.ToString() + "
+5. " + fifth_driver.ToString() + " (" + fifth_driver_car.ToString() + ") - " + fifth_driver_points.ToString() + "
+6. " + sixth_driver.ToString() + " (" + sixth_driver_car.ToString() + ") - " + sixth_driver_points.ToString() + "
+7. " + seventh_driver.ToString() + " (" + seventh_driver_car.ToString() + ") - " + seventh_driver_points.ToString() + "
+8. " + eighth_driver.ToString() + " (" + eighth_driver_car.ToString() + ") - " + eighth_driver_points.ToString() + "
+9. " + ninth_driver.ToString() + " (" + ninth_driver_car.ToString() + ") - " + ninth_driver_points.ToString() + "
+10. " + tenth_driver.ToString() + " (" + tenth_driver_car.ToString() + ") - " + tenth_driver_points.ToString() + "
+
+
+# Constructors Standings:
+1. " + first_constructor.ToString() + " - " + first_constructor_points.ToString() + "
+2. " + second_constructor.ToString() + " - " + second_constructor_points.ToString() + "
+3. " + third_constructor.ToString() + " - " + third_constructor_points.ToString() + "
+4. " + fourth_constructor.ToString() + " - " + fourth_constructor_points.ToString() + "
+5. " + fifth_constructor.ToString() + " - " + fifth_constructor_points.ToString() + "
+6. " + sixth_constructor.ToString() + " - " + sixth_constructor_points.ToString() + "
+7. " + seventh_constructor.ToString() + " - " + seventh_constructor_points.ToString() + "
+8. " + eighth_constructor.ToString() + " - " + eighth_constructor_points.ToString() + "
+9. " + ninth_constructor.ToString() + " - " + ninth_constructor_points.ToString() + "
+10. " + tenth_constructor.ToString() + " - " + tenth_constructor_points.ToString() + "
+
+# Since we do not know when you want this report, a weather report for 30 days is attached.
+
+Thank you!"
